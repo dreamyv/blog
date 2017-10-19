@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>jqGrid Loading Data - Million Rows from a REST service</title>
+	
+	<link rel="stylesheet" href="tree/tm_tree.css"/>
+	<script type="text/javascript" src="../jquery.min.js"></script>
+	<script type="text/javascript" src="sgutil.js"></script>
+	<script type="text/javascript" src="tree/tm_tree.js"></script>
+</head>
+<body>
+
+   <div id="permissiontree"></div>
+
+    <script type="text/javascript"> 
+    $(function(){
+		var root = [
+			{name:"2",opid:1,pid:"root1"},
+			{name:"2",opid:2,pid:"root2"},
+			{name:"2",opid:3,pid:"root3"},
+			{name:"2",opid:4,pid:"root4"},
+			{name:"2",opid:5,pid:"root5"}
+			
+		]
+		var children={root2:[
+			{name:"2",opid:11,pid:"root11"},
+			{name:"2",opid:12,pid:"root12"},
+			{name:"2",opid:13,pid:"root13"},
+			{name:"2",opid:14,pid:"root14"}
+			
+		],
+		root11:[
+				{name:"2",opid:15,pid:"root111"},
+				{name:"2",opid:16,pid:"root121"}
+		]
+		};
+	
+
+
+		$("#permissiontree").tmTree({
+			root:root,children:children,type:"checkbox"
+		});
+	});   
+
+   </script>
+
+
+</body>
+</html>

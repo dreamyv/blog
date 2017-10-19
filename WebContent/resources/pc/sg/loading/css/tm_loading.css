@@ -1,0 +1,4 @@
+#loading{cursor:pointer;background:#000;color:#fff;box-shadow:5px 5px 1em #000;
+border-radius:8px;position:fixed;z-index:1000}
+.loading_gif{padding:2px 10px;}
+.loading_cnt{padding:4px;}

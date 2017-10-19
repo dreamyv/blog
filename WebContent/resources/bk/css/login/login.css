@@ -1,0 +1,326 @@
+@charset "UTF-8";
+@import url(jquery.mCustomScrollbar.css);
+html {
+	overflow-y: hidden;
+}
+body {
+	margin: 0;
+	height: 100%;
+	background: #16a085;
+	overflow: hidden;
+	font-family: "Microsoft YaHei";
+	font-size: .28em;
+	line-height: 1;
+	color: #333;
+}
+canvas {
+	z-index: -1;
+	position: absolute;
+}
+a:active, a:hover {
+	outline: 0
+}
+
+button, input, optgroup, select, textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+	-webkit-appearance: button;
+	cursor: pointer
+}
+
+input, select, button {
+	outline: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+td, th {
+	padding: 0
+}
+
+img {
+	vertical-align: middle;
+	border: 0
+}
+
+@
+-ms-viewport {
+	width: device-width
+}
+
+html {
+	font-size: 50px;
+	-webkit-tap-highlight-color: transparent;
+	height: 100%;
+	min-width: 320px;
+	overflow-x: hidden
+}
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-weight: 500;
+	line-height: 1.1
+}
+
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small,
+	.h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small,
+	h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small,
+	h5 small, h6 .small, h6 small {
+	font-weight: 400;
+	line-height: 1
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+	margin-top: .28rem;
+	margin-bottom: .14rem
+}
+
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small,
+	h1 small, h2 .small, h2 small, h3 .small, h3 small {
+	font-size: 65%
+}
+
+.h4, .h5, .h6, h4, h5, h6 {
+	margin-top: .14rem;
+	margin-bottom: .14rem
+}
+
+.h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h4 .small,
+	h4 small, h5 .small, h5 small, h6 .small, h6 small {
+	font-size: 75%
+}
+
+.h1, h1 {
+	font-size: .364rem
+}
+
+.h2, h2 {
+	font-size: .2996rem
+}
+
+.h3, h3 {
+	font-size: .238rem
+}
+
+.h4, h4 {
+	font-size: .175rem
+}
+
+.h5, h5 {
+	font-size: .14rem
+}
+
+.h6, h6 {
+	font-size: .119rem
+}
+
+h6 {
+	margin-top: 0;
+	margin-bottom: 0
+}
+
+button, input, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit
+}
+
+a {
+	color: #06c1ae;
+	text-decoration: none;
+	outline: 0
+}
+
+a:focus {
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px
+}
+
+a.react, label.react {
+	display: block;
+	color: inherit;
+	height: 100%
+}
+
+a.react.react-active, a.react:active, label.react:active {
+	background: rgba(0, 0, 0, .1)
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none
+}
+
+hr {
+	margin-top: .28rem;
+	margin-bottom: .28rem;
+	border: 0;
+	border-top: 1px solid #DDD8CE
+}
+
+h6, p {
+	line-height: 1.41;
+	text-align: justify;
+	margin: -.2em 0;
+	word-break: break-all
+}
+
+small, weak {
+	color: #666
+}
+
+::-webkit-input-placeholder {
+	color: #999;
+	line-height: inherit;
+}
+
+:-moz-placeholder {
+	color: #999;
+	line-height: inherit;
+}
+
+::-moz-placeholder {
+	color: #999;
+	line-height: inherit;
+}
+
+/*other public*/
+.iconfont {
+	font-family: 'adminthemesregular';
+}
+
+.rmb_icon {
+	color: #19a97b;
+}
+
+.ellipsis {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.center {
+	text-align: center;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.mtb {
+	margin: 5px 0;
+	overflow: hidden;
+}
+
+.mlr {
+	margin: 0 5px;
+	overflow: hidden;
+}
+
+.admin_login {
+	width: 300px;
+	height: auto;
+	overflow: hidden;
+	margin: 10% auto 0 auto;
+	padding: 40px;
+	box-shadow: 0 -15px 30px #0d957a;
+	border-radius: 5px;
+}
+
+.admin_login ul li {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #45bda6;
+	text-shadow: 0 0 1px #46615c;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.admin_login ul li .login_txtbx {
+	font-size: 14px;
+	height: 40px;
+	line-height: 26px;
+	padding: 8px 5%;
+	width: 90%;
+	text-indent: 2em;
+	border: none;
+	background: #5cbdaa;
+	color: #fff;
+	font-weight: normal;
+}
+
+.admin_login ul li .icon {
+	color: #fff;
+	font-weight: normal;
+	position: absolute;
+	top: 12px;
+	left: 25px;
+	font-size: 18px;
+}
+/* WebKit browsers */
+::-webkit-input-placeholder {
+	color: #fff;
+}
+/* Mozilla Firefox 4 to 18 */
+:-moz-placeholder {
+	color: #fff;
+}
+/* Mozilla Firefox 19+ */
+::-moz-placeholder {
+	color: #fff;
+}
+/* Internet Explorer 10+ */
+::-moz-placeholder {color:#fff;}
+
+/* 解决文本框背景黄颜色 */
+input:-webkit-autofill{
+  box-shadow:0 0 0 120px #fff inset;/* 120这个值取至文本框宽度的1/2 */
+}
+
+.admin_login ul li .submit_btn {
+	width: 90%;
+	height: 42px;
+	border: none;
+	font-size: 16px;
+	background: #048f74;
+	color: #f8f8f8;
+	padding: 8px 5%;
+}
+
+.admin_login ul li .codeimg_box{
+	height:40px;
+	width:95px;
+	position:absolute;
+	top:0px;
+	right:15px;
+	background:#16a085;
+	cursor:pointer;
+}
+.admin_login ul li .codeimg_box img{
+	color:#fff;
+	font-size:12px;
+	border:0px;
+}
+.admin_login ul li p{
+    color: #53c6b0;
+    font-size: 12px;
+    text-align: center;
+    margin: 5px 0;
+}
+.admin_login ul li strong{
+color:rgb(228, 228, 228)
+}
